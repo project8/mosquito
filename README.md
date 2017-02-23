@@ -13,4 +13,4 @@
 
 ## Tests
 
-1. Check that the communications with the AMQP broker works using the testing vi (TBD)
+1. Check that the communications with the AMQP broker works using the Monitor.vi (in ```dripline-labview/vi/API```)
