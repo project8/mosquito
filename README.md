@@ -8,9 +8,16 @@
 
 ## Installation
 
-1. Clone this repo (using Source Tree)
-1. Install dripline-labview requirements
+1. Clone this repo (using SourceTree)
+1. Install dripline-labview requirements (see ```dripline-labview/ReadMe.md```)
+1. Create the folder mentionned in the config file
+1. Create the ```archives``` and ```averaged_spectra``` folders in ```DataFileLocation```
 
 ## Tests
 
-1. Check that the communications with the AMQP broker works using the testing vi (TBD)
+1. Check that the communications with the AMQP broker works using the Monitor.vi (in ```dripline-labview/vi/API```)
+
+## Start application
+
+1. Change the path to the config file
+1. Start the application
