@@ -26,6 +26,7 @@
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
 		<Item Name="main.vi" Type="VI" URL="../main.vi"/>
+		<Item Name="multiVi_test.vi" Type="VI" URL="../multiVi_test.vi"/>
 		<Item Name="RGAConfig.ini" Type="Document" URL="../../hardware/software_config/rga/RGAConfig.ini"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
@@ -195,7 +196,7 @@
 				<Property Name="Source[0].itemID" Type="Str">{5FB44EE2-B464-4DE2-8262-F1F44CF15AAF}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref">/My Computer/dripline-labview/vi/API/Listen and reply broadcast.ping.vi</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/dripline-labview/vi/API/Listen and reply broadcast.ping.vit</Property>
 				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[1].type" Type="Str">VI</Property>
 				<Property Name="SourceCount" Type="Int">2</Property>
