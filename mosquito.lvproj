@@ -26,7 +26,6 @@
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
 		<Item Name="main.vi" Type="VI" URL="../main.vi"/>
-		<Item Name="multiVi_test.vi" Type="VI" URL="../multiVi_test.vi"/>
 		<Item Name="RGAConfig.ini" Type="Document" URL="../../hardware/software_config/rga/RGAConfig.ini"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
