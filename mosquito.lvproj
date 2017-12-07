@@ -58,7 +58,6 @@
 				<Item Name="Get Text Rect.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Get Text Rect.vi"/>
 				<Item Name="GetHelpDir.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/GetHelpDir.vi"/>
 				<Item Name="GetRTHostConnectedProp.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/GetRTHostConnectedProp.vi"/>
-				<Item Name="Is Path and Not Empty.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Is Path and Not Empty.vi"/>
 				<Item Name="Longest Line Length in Pixels.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Longest Line Length in Pixels.vi"/>
 				<Item Name="LVBoundsTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVBoundsTypeDef.ctl"/>
 				<Item Name="LVRectTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVRectTypeDef.ctl"/>
@@ -124,7 +123,7 @@
 				<Property Name="Bld_previewCacheID" Type="Str">{293229B7-C243-4E67-82A0-22180C743916}</Property>
 				<Property Name="Bld_userLogFile" Type="Path">../build/mosquito_Mosquito_log.txt</Property>
 				<Property Name="Bld_userLogFile.pathType" Type="Str">relativeToProject</Property>
-				<Property Name="Bld_version.build" Type="Int">19</Property>
+				<Property Name="Bld_version.build" Type="Int">49</Property>
 				<Property Name="Bld_version.minor" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Mosquito.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../build/NI_AB_PROJECTNAME.exe</Property>
@@ -137,10 +136,13 @@
 				<Property Name="Destination[2].destName" Type="Str">labview-dripline</Property>
 				<Property Name="Destination[2].path" Type="Path">../build/labview-dripline</Property>
 				<Property Name="Destination[2].path.type" Type="Str">relativeToProject</Property>
-				<Property Name="DestinationCount" Type="Int">3</Property>
+				<Property Name="Destination[3].destName" Type="Str">vi</Property>
+				<Property Name="Destination[3].path" Type="Path">../build/vi</Property>
+				<Property Name="Destination[3].path.type" Type="Str">relativeToProject</Property>
+				<Property Name="DestinationCount" Type="Int">4</Property>
 				<Property Name="Exe_cmdLineArgs" Type="Bool">true</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/icon/mosquito.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{5FB44EE2-B464-4DE2-8262-F1F44CF15AAF}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{CD6F0E77-C0D1-4DC1-B0AA-AB4398B89C4E}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/main.vi</Property>
@@ -159,7 +161,20 @@
 				<Property Name="Source[3].itemID" Type="Ref">/My Computer/configfiles</Property>
 				<Property Name="Source[3].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[3].type" Type="Str">Container</Property>
-				<Property Name="SourceCount" Type="Int">4</Property>
+				<Property Name="Source[4].Container.applyDestination" Type="Bool">true</Property>
+				<Property Name="Source[4].Container.applyInclusion" Type="Bool">true</Property>
+				<Property Name="Source[4].Container.depDestIndex" Type="Int">0</Property>
+				<Property Name="Source[4].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[4].itemID" Type="Ref">/My Computer/vi</Property>
+				<Property Name="Source[4].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[4].type" Type="Str">Container</Property>
+				<Property Name="Source[5].Container.applyInclusion" Type="Bool">true</Property>
+				<Property Name="Source[5].Container.depDestIndex" Type="Int">0</Property>
+				<Property Name="Source[5].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[5].itemID" Type="Ref">/My Computer/global</Property>
+				<Property Name="Source[5].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[5].type" Type="Str">Container</Property>
+				<Property Name="SourceCount" Type="Int">6</Property>
 				<Property Name="TgtF_companyName" Type="Str">Project 8</Property>
 				<Property Name="TgtF_enableDebugging" Type="Bool">true</Property>
 				<Property Name="TgtF_fileDescription" Type="Str">Labview interface of the exTorr RGA XT100 </Property>
