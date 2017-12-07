@@ -123,7 +123,7 @@
 				<Property Name="Bld_previewCacheID" Type="Str">{293229B7-C243-4E67-82A0-22180C743916}</Property>
 				<Property Name="Bld_userLogFile" Type="Path">../build/mosquito_Mosquito_log.txt</Property>
 				<Property Name="Bld_userLogFile.pathType" Type="Str">relativeToProject</Property>
-				<Property Name="Bld_version.build" Type="Int">40</Property>
+				<Property Name="Bld_version.build" Type="Int">49</Property>
 				<Property Name="Bld_version.minor" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Mosquito.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../build/NI_AB_PROJECTNAME.exe</Property>
