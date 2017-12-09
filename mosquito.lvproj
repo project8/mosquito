@@ -123,7 +123,7 @@
 				<Property Name="Bld_previewCacheID" Type="Str">{293229B7-C243-4E67-82A0-22180C743916}</Property>
 				<Property Name="Bld_userLogFile" Type="Path">../build/mosquito_Mosquito_log.txt</Property>
 				<Property Name="Bld_userLogFile.pathType" Type="Str">relativeToProject</Property>
-				<Property Name="Bld_version.build" Type="Int">51</Property>
+				<Property Name="Bld_version.build" Type="Int">52</Property>
 				<Property Name="Bld_version.minor" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Mosquito.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../build/NI_AB_PROJECTNAME.exe</Property>
@@ -142,7 +142,7 @@
 				<Property Name="DestinationCount" Type="Int">4</Property>
 				<Property Name="Exe_cmdLineArgs" Type="Bool">true</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/icon/mosquito.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{CD6F0E77-C0D1-4DC1-B0AA-AB4398B89C4E}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{CDF1B0C8-2401-4454-AFBF-7A5BBCD6FC6B}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/main.vi</Property>
